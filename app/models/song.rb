@@ -21,6 +21,4 @@ class Song < ActiveRecord::Base
       end
     end
   end
-=======
->>>>>>> e404ed9b6cc3a52badf849589478f9c041900393
 end
