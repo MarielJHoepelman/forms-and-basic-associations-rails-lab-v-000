@@ -2,6 +2,7 @@ class Song < ActiveRecord::Base
   belongs_to :artist
   belongs_to :genre
   has_many :notes
+<<<<<<< HEAD
 
   #att accesors
   def artist_name=(name)
@@ -20,4 +21,6 @@ class Song < ActiveRecord::Base
       end
     end
   end
+=======
+>>>>>>> e404ed9b6cc3a52badf849589478f9c041900393
 end
